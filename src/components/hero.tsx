@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
 import Header from "@/components/header"
-import profile from "@/assets/profile.png"
+
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("")
