@@ -2,6 +2,7 @@ import { Gallery6 } from "@/components/gallery6";
 import { SplashCursor } from "@/components/ui/splash-cursor"
 import Hero from "@/components/hero";
 import { BeamsBackground } from "@/components/ui/beams-background";
+import Header from "@/components/header";
 
 const demoData = {
   heading: "Featured Projects",
@@ -57,10 +58,12 @@ export default function Home() {
   return (
     <main className="min-h-screen">
 
-     <Hero />
-     <Gallery6 {...demoData} />
-     <SplashCursor/>
+     <Header />
+    
+     <SplashCursor />
      < BeamsBackground />
+     <Gallery6 {...demoData} />
+     <Hero />
     </main>
     
    
