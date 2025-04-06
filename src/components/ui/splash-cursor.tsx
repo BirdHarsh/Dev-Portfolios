@@ -53,7 +53,7 @@ function SplashCursor({
       };
     }
     
-    const pointer = createPointer();
+   
 
     const config = {
       SIM_RESOLUTION,
