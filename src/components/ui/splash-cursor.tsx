@@ -73,7 +73,7 @@ function SplashCursor({
       TRANSPARENT,
     };
 
-    const pointers = [new createPointer()];
+    const pointers = [createPointer()];
 
     const { gl, ext } = getWebGLContext(canvas);
     if (!ext.supportLinearFiltering) {
