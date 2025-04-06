@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 pt-20 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-lg font-medium text-primary">Hello, I'm</h2>
+            <h2 className="text-lg font-medium text-primary">Hello, I&apos;m</h2>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Harsh Vardhan Rajak</h1>
             <div className="h-8">
               <p className="text-xl md:text-2xl font-medium text-muted-foreground">
