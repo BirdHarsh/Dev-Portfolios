@@ -1,9 +1,7 @@
 import { Gallery6 } from "@/components/gallery6";
-import { SplashCursor } from "@/components/ui/splash-cursor"
-import Hero from "@/components/hero";
 import { BeamsBackground } from "@/components/ui/beams-background";
 import Header from "@/components/header";
-import { StackedCircularFooter } from "@/components/ui/stacked-circular-footer";
+
 import About from "@/components/about";
 import Skills from "@/components/skills";
 import Footer from "@/components/footer";
@@ -51,8 +49,6 @@ const demoData = {
 
 export default function Home() {
 
-
-
   return (
     <main className="relative min-h-screen">
       {/* <div className="absolute inset-0 -z-10">
@@ -64,7 +60,7 @@ export default function Home() {
       <Projects />   
       <About />
      <Skills />
-        <StackedCircularFooter />
+      
  <Footer />
     </main>
     
