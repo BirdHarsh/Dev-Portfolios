@@ -3,51 +3,49 @@ import { SplashCursor } from "@/components/ui/splash-cursor"
 import Hero from "@/components/hero";
 import { BeamsBackground } from "@/components/ui/beams-background";
 import Header from "@/components/header";
-
+import { StackedCircularFooter } from "@/components/ui/stacked-circular-footer";
+import About from "@/components/about";
+import Skills from "@/components/skills";
+import Footer from "@/components/footer";
+import Projects from "@/components/projects";
 const demoData = {
   heading: "Featured Projects",
   demoUrl: "https://www.shadcnblocks.com",
   items: [
     {
       id: "item-1",
-      title: "Build Modern UIs",
+      title: "Stack",
       summary:
-        "Create stunning user interfaces with our comprehensive design system.",
+        "STACK is a mobile app that allows any user to leverage the power of AI and their creativity to completely redesign garments and footwear for themselves or their business.",
       url: "#",
-      image: "https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "/stackIcon.png",
     },
     {
       id: "item-2",
-      title: "Design System Components",
+      title: "Movabook",
       summary:
-        "Explore our library of customizable components built with shadcn/ui and Tailwind CSS.",
+        " MovaBook, a fitness app similar to Strava, for tracking jogging, walking, and cycling with real-time map sharing, leaderboards, and social media features to boost user engagement",
       url: "#",
-      image: "https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "/Movabook.jpg",
     },
     {
       id: "item-3",
-      title: "Responsive Layouts",
+      title: "SourceWorm",
       summary:
-        "Build websites that look great on any device with our responsive design patterns.",
+        "SourceWorm is a web application that allows users to upload and share their source code with others, providing a platform for collaboration and feedback.",
       url: "#",
       image: "https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg",
     },
     {
       id: "item-4",
-      title: "Developer Experience",
+      title: "Ceto-Drive",
       summary:
-        "Streamline your workflow with our developer-friendly tools and documentation.",
+        "Ceto-Drive is a web application that allows users to track their driving habits and receive personalized feedback to improve their driving skills.",
       url: "#",
       image: "https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg",
     },
-    {
-      id: "item-5",
-      title: "Performance First",
-      summary:
-        "Create fast, optimized websites using our performance-focused components.",
-      url: "#",
-      image: "https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg",
-    },
+    
+    
   ],
 };
 
@@ -56,14 +54,18 @@ export default function Home() {
 
 
   return (
-    <main className="min-h-screen">
-
-     <Header />
-    
-     <SplashCursor />
-     < BeamsBackground />
-     <Gallery6 {...demoData} />
-     <Hero />
+    <main className="relative min-h-screen">
+      {/* <div className="absolute inset-0 -z-10">
+        <SplashCursor />
+      </div> */}
+      <Header />
+      <BeamsBackground />
+      <Gallery6 {...demoData} />  
+      <Projects />   
+      <About />
+     <Skills />
+        <StackedCircularFooter />
+ <Footer />
     </main>
     
    

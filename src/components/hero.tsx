@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
 import Header from "@/components/header"
+import { SplashCursor } from "./ui/splash-cursor"
 
 
 export default function Hero() {
@@ -27,7 +28,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center">
-      
+     
       <div className="absolute inset-0 bg-gradient-to-br  z-0" />
 
       <div className="container mx-auto px-4 pt-20 z-10">
@@ -89,6 +90,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+         
       </div>
     </section>
   )

@@ -96,13 +96,7 @@ const Gallery6 = ({
             <h2 className="mb-3 text-3xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
               {heading}
             </h2>
-            <a
-              href={demoUrl}
-              className="group flex items-center gap-1 text-sm font-medium md:text-base lg:text-lg"
-            >
-              Book a demo
-              <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-1" />
-            </a>
+            
           </div>
           <div className="mt-8 flex shrink-0 items-center justify-start gap-2">
             <Button

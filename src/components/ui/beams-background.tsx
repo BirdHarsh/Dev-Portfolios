@@ -4,6 +4,8 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import Hero from "../hero";
+import { SplashCursor } from "./splash-cursor";
+
 
 interface AnimatedGradientBackgroundProps {
     className?: string;
@@ -174,6 +176,7 @@ export function BeamsBackground({
                 className
             )}
         >
+              
             <canvas
                 ref={canvasRef}
                 className="absolute inset-0"
@@ -196,7 +199,9 @@ export function BeamsBackground({
             />
 
             <div className="relative z-10  h-screen w-full ">
+                
                 <div className=" gap-6 px-4 ">
+         
                     {/* <motion.h1
                         className="text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-tighter"
                         initial={{ opacity: 0, y: 20 }}
@@ -216,6 +221,7 @@ export function BeamsBackground({
                         For your pleasure
                     </motion.p> */}
                     <Hero />
+                    
                 </div>
             </div>
         </div>

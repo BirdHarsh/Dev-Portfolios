@@ -58,7 +58,12 @@ export default function Header() {
                       {item.name}
                     </Link>
                   ))}
-                  <Button className="w-full mt-4">Download CV</Button>
+                  <a
+  href="/Harsh_Vardhan_Rajak.pdf"
+  download
+  
+>
+                  <Button className="w-full mt-4" >Download CV</Button></a>
                 </nav>
               </div>
             )}
@@ -76,7 +81,13 @@ export default function Header() {
                 </Link>
               ))}
             </nav>
-            <Button>Download CV</Button>
+
+            <a
+  href="/Harsh_Vardhan_Rajak.pdf"
+  download
+  
+>
+            <Button>Download CV</Button></a>
           </div>
         )}
       </div>
