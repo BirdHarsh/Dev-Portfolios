@@ -51,13 +51,13 @@ export default function About() {
           <div className="reveal">
             <h3 className="text-2xl font-bold mb-4">Creative Developer & Designer</h3>
             <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-              I'm a passionate developer and designer with over 5 years of experience creating beautiful, functional
+              I am a passionate developer and designer with over 5 years of experience creating beautiful, functional
               digital experiences. I specialize in front-end development, UI/UX design, and creating engaging
               interactive websites.
             </p>
             <p className="text-zinc-700 dark:text-zinc-300 mb-6">
               My approach combines technical expertise with creative problem-solving to deliver solutions that not only
-              look great but also provide exceptional user experiences. I'm constantly learning and exploring new
+              look great but also provide exceptional user experiences. I am constantly learning and exploring new
               technologies to stay at the forefront of web development.
             </p>
 
