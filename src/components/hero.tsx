@@ -4,8 +4,7 @@ import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
-import Header from "@/components/header"
-import { SplashCursor } from "./ui/splash-cursor"
+
 
 
 export default function Hero() {
