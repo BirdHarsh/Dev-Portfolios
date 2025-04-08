@@ -32,36 +32,36 @@ export default function Skills() {
       description: "Building responsive and performant websites using modern frameworks and technologies.",
       technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     },
-    {
-      icon: <Figma className="h-8 w-8" />,
-      title: "UI/UX Design",
-      description: "Creating intuitive and visually appealing user interfaces and experiences.",
-      technologies: ["Figma", "Adobe XD", "Sketch", "Prototyping"],
-    },
+    // {
+    //   icon: <Figma className="h-8 w-8" />,
+    //   title: "UI/UX Design",
+    //   description: "Creating intuitive and visually appealing user interfaces and experiences.",
+    //   technologies: ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+    // },
     {
       icon: <Smartphone className="h-8 w-8" />,
       title: "Mobile Development",
       description: "Developing cross-platform mobile applications with native-like performance.",
       technologies: ["React Native", "Flutter", "iOS", "Android"],
     },
-    {
-      icon: <Database className="h-8 w-8" />,
-      title: "Backend Development",
-      description: "Building robust server-side applications and APIs to power web applications.",
-      technologies: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
-    },
-    {
-      icon: <Layers className="h-8 w-8" />,
-      title: "3D Modeling",
-      description: "Creating immersive 3D models and animations for web and mobile applications.",
-      technologies: ["Three.js", "Blender", "WebGL", "GSAP"],
-    },
-    {
-      icon: <Zap className="h-8 w-8" />,
-      title: "Performance Optimization",
-      description: "Optimizing web applications for speed, accessibility, and search engines.",
-      technologies: ["Lighthouse", "Web Vitals", "SEO", "Analytics"],
-    },
+    // {
+    //   icon: <Database className="h-8 w-8" />,
+    //   title: "Backend Development",
+    //   description: "Building robust server-side applications and APIs to power web applications.",
+    //   technologies: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
+    // },
+    // {
+    //   icon: <Layers className="h-8 w-8" />,
+    //   title: "3D Modeling",
+    //   description: "Creating immersive 3D models and animations for web and mobile applications.",
+    //   technologies: ["Three.js", "Blender", "WebGL", "GSAP"],
+    // },
+    // {
+    //   icon: <Zap className="h-8 w-8" />,
+    //   title: "Performance Optimization",
+    //   description: "Optimizing web applications for speed, accessibility, and search engines.",
+    //   technologies: ["Lighthouse", "Web Vitals", "SEO", "Analytics"],
+    // },
   ]
 
   return (

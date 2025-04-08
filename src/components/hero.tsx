@@ -9,7 +9,7 @@ import Link from "next/link"
 
 export default function Hero() {
   const [typedText, setTypedText] = useState("")
-  const fullText = "React & React Native Developer"
+  const fullText = "Full Stack Developer"
 
   useEffect(() => {
     let i = 0
@@ -57,21 +57,17 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center space-x-4 pt-4">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="GitHub">
+              <Link href="https://github.com/BirdHarsh" target="_blank" rel="noopener noreferrer">
+                <Button variant="secondary" size="icon" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/harsh-vardhan-rajak/" target="_blank" rel="noopener noreferrer">
+                <Button variant='secondary' size="icon" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" aria-label="Twitter">
-                  <Twitter className="h-5 w-5" />
-                </Button>
-              </Link>
+             
             </div>
           </div>
 

@@ -39,7 +39,7 @@ export default function About() {
           <div className="reveal">
             <div className="relative aspect-square max-w-md mx-auto md:ml-0 overflow-hidden rounded-2xl">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/profile.png"
                 alt="Profile"
                 width={600}
                 height={600}
@@ -51,39 +51,37 @@ export default function About() {
           <div className="reveal">
             <h3 className="text-2xl font-bold mb-4">Creative Developer & Designer</h3>
             <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-              I am a passionate developer and designer with over 5 years of experience creating beautiful, functional
-              digital experiences. I specialize in front-end development, UI/UX design, and creating engaging
-              interactive websites.
-            </p>
-            <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-              My approach combines technical expertise with creative problem-solving to deliver solutions that not only
-              look great but also provide exceptional user experiences. I am constantly learning and exploring new
-              technologies to stay at the forefront of web development.
-            </p>
+            I m Harsh Vardhan Rajak, a Full-Stack Developer with a strong front-end focus. I specialize in building responsive, cross-platform applications using React, React Native, and modern tools like Redux, Firebase, and Three.js. Whether it's integrating 3D visuals, building real-time features, or creating smooth mobile experiences, I enjoy turning ideas into fast, scalable, and engaging products.
+</p>
+<p className="text-zinc-700 dark:text-zinc-300 mb-6">
+            I bring a product-first mindset, clean code practices, and a passion for building things that work beautifully. From fitness and shopping apps to interactive user interfaces, I focus on crafting user-centric experiences backed by reliable performance and solid architecture.
+
+</p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h4 className="font-medium mb-2">Name:</h4>
-                <p className="text-zinc-700 dark:text-zinc-300">Your Name</p>
+                <p className="text-zinc-700 dark:text-zinc-300">Harsh Vardhan Rajak</p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Email:</h4>
-                <p className="text-zinc-700 dark:text-zinc-300">your.email@example.com</p>
+                <p className="text-zinc-700 dark:text-zinc-300">Harsh4rk@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Location:</h4>
-                <p className="text-zinc-700 dark:text-zinc-300">New York, USA</p>
+                <p className="text-zinc-700 dark:text-zinc-300">Indore India</p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Availability:</h4>
-                <p className="text-zinc-700 dark:text-zinc-300">Freelance / Full-time</p>
+                <p className="text-zinc-700 dark:text-zinc-300">Full-time</p>
               </div>
             </div>
-
+            <a href="/Harsh_Vardhan_Rajak.pdf" download>
             <Button className="rounded-full px-6">
-              <Download className="mr-2 h-4 w-4" />
+              <Download className="mr-2 h-4 w-4"  />
               Download Resume
             </Button>
+            </a>
           </div>
         </div>
       </div>

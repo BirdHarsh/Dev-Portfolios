@@ -17,22 +17,15 @@ export default function Footer() {
               digital landscape.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <Link href="https://github.com/BirdHarsh" className="text-zinc-400 hover:text-white transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/in/harsh-vardhan-rajak/" className="text-zinc-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
+            
             </div>
           </div>
 
@@ -65,16 +58,16 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-zinc-400">
-              <li>123 Design Street</li>
-              <li>New York, NY 10001</li>
-              <li>your.email@example.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li> 🌍Indore, India</li>
+           
+              <li>Harsh4rk@gmail.com</li>
+              <li>+91 9907584909</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-zinc-800 mt-12 pt-8 text-center text-zinc-500">
-          <p>© {currentYear} Your Name. All rights reserved.</p>
+          <p>© {currentYear} Harsh Vardhan Rajak. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -32,59 +32,47 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Website",
-      description: "A modern e-commerce platform with product filtering, cart functionality, and secure checkout.",
-      image: "/placeholder.svg?height=600&width=800",
-      category: "web",
-      technologies: ["Next.js", "Tailwind CSS", "Stripe", "Supabase"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Mobile Banking App",
-      description: "A secure and user-friendly mobile banking application with transaction history and bill payments.",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "Stack",
+      description: "STACK is a mobile app that allows any user to leverage the power of AI and their creativity to completely redesign garments and footwear for themselves or their business.",
+      image: "/stackIcon.png",
       category: "mobile",
-      technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
+      technologies: ["React Native","Three.js","Redux","Stripe"],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
-      title: "Portfolio Website",
-      description: "A creative portfolio website showcasing projects and skills with smooth animations.",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "MovaBook",
+      description:         " MovaBook, a fitness app similar to Strava, for tracking jogging, walking, and cycling with real-time map sharing, leaderboards, and social media features to boost user engagement",
+
+      image: "/Movabook.jpg",
+      category: "mobile",
+      technologies: ["React Native", "Google Maps API", "Redux", "Firebase",  ],
+      liveUrl: "#",
+      githubUrl: "#",
+    },
+    {
+      title: "SourceWorm",
+      description:         "SourceWorm is a web application that allows users to upload and share their source code with others, providing a platform for collaboration and feedback.",
+
+      image: "/sourceworm.png",
       category: "web",
       technologies: ["React", "GSAP", "Framer Motion", "Tailwind CSS"],
       liveUrl: "#",
       githubUrl: "#",
     },
-    {
-      title: "3D Product Configurator",
-      description: "An interactive 3D product configurator allowing users to customize products in real-time.",
-      image: "/placeholder.svg?height=600&width=800",
-      category: "3d",
-      technologies: ["Three.js", "React", "WebGL", "GLSL"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Task Management App",
-      description: "A productivity app for managing tasks, projects, and team collaboration.",
-      image: "/placeholder.svg?height=600&width=800",
-      category: "mobile",
-      technologies: ["Flutter", "Firebase", "Bloc", "Material Design"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Interactive Data Visualization",
-      description: "A dashboard with interactive charts and graphs for data analysis and reporting.",
-      image: "/placeholder.svg?height=600&width=800",
+   {
+      title: "Ceto Drive",
+      description:             "Ceto-Drive is a web application that allows users to track their driving habits and receive personalized feedback to improve their driving skills.",
+
+
+      image: "/",  
       category: "web",
-      technologies: ["D3.js", "Vue.js", "SVG", "REST API"],
+      technologies: ["React", "GSAP", "Framer Motion", "Tailwind CSS"],
       liveUrl: "#",
       githubUrl: "#",
     },
+    
+  
   ]
 
   const filteredProjects = filter === "all" ? projects : projects.filter((project) => project.category === filter)

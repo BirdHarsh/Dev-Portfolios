@@ -56,7 +56,7 @@ export default function Home() {
       </div> */}
       <Header />
       <BeamsBackground />
-      <Gallery6 {...demoData} />  
+ 
       <Projects />   
       <About />
      <Skills />
