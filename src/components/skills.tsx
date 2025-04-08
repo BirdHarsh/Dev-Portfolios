@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
-import { Code, Figma, Layers, Smartphone, Zap, Database } from "lucide-react"
+import { Code, Smartphone } from "lucide-react"
 
 export default function Skills() {
   useEffect(() => {

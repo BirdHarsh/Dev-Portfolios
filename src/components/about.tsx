@@ -51,7 +51,7 @@ export default function About() {
           <div className="reveal">
             <h3 className="text-2xl font-bold mb-4">Creative Developer & Designer</h3>
             <p className="text-zinc-700 dark:text-zinc-300 mb-6">
-            I m Harsh Vardhan Rajak, a Full-Stack Developer with a strong front-end focus. I specialize in building responsive, cross-platform applications using React, React Native, and modern tools like Redux, Firebase, and Three.js. Whether it's integrating 3D visuals, building real-time features, or creating smooth mobile experiences, I enjoy turning ideas into fast, scalable, and engaging products.
+            I am Harsh Vardhan Rajak, a Full-Stack Developer with a strong front-end focus. I specialize in building responsive, cross-platform applications using React, React Native, and modern tools like Redux, Firebase, and Three.js. Whether it is integrating 3D visuals, building real-time features, or creating smooth mobile experiences, I enjoy turning ideas into fast, scalable, and engaging products.
 </p>
 <p className="text-zinc-700 dark:text-zinc-300 mb-6">
             I bring a product-first mindset, clean code practices, and a passion for building things that work beautifully. From fitness and shopping apps to interactive user interfaces, I focus on crafting user-centric experiences backed by reliable performance and solid architecture.
